@@ -1,0 +1,37 @@
+.title{
+  color: red;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 10px 40px;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo{
+  color: orangered;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: linear-gradient(to right bottom, rgba(255, 68, 0, 0.725), rgba(102, 133, 102, 0.613));
+}
